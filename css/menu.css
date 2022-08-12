@@ -1,0 +1,73 @@
+#g1{
+    color: #C3170C;
+}
+#oglobo{
+    color: #1E4B9B;
+}
+#valor{
+    color: #006766;
+}
+#ge{
+    color: #07AA47;
+}
+#cartola{
+    color: #E3662B;
+}
+#globoplay{
+    color: #FB0735;
+}
+#dropz{
+    color: #FF75BB;
+}
+#gshow{
+    color: #EC7D00;
+}
+#quem{
+    color: #323333;
+}
+#receitas{
+    color: #A81D83;
+}
+#tech{
+    color: #666666;
+}
+#video{
+    color: #0769DE;
+}
+#logo-desktop{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+#logo-mobile{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+#menu{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#menu-mobile{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0, 40px;
+    border-top: 2px solid #EBEDEF;
+    border-bottom: 2px solid #EBEDEF;
+}
+#menu a, #menu-mobile a{
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration: none;    
+}

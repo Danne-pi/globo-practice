@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.globoapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.globoapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Globo</title>
+</head>
+<header>
+    <!-- Logo -->
+    <a href="https://globo.com" target="_blank" id="logo-desktop">
+        <img src="assets/elements/logo.svg" />
+    </a>
+    <a href="https://globo.com" target="_blank" id="logo-mobile">
+        <img src="assets/elements/logo_mobile.svg" />
+    </a>
+
+    <!-- Menu -->
+    <div id="menu">
+        <a href="https://globo.com" target="_blank" id="g1">g1</a>
+        <a href="https://globo.com" target="_blank" id="oglobo">o globo</a>
+        <a href="https://globo.com" target="_blank" id="valor">valor</a>
+        <a href="https://globo.com" target="_blank" id="ge">ge</a>
+        <a href="https://globo.com" target="_blank" id="cartola">cartola</a>
+        <a href="https://globo.com" target="_blank" id="globoplay">globoplay</a>
+        <a href="https://globo.com" target="_blank" id="dropz">dropz</a>
+        <a href="https://globo.com" target="_blank" id="gshow">gshow</a>
+        <a href="https://globo.com" target="_blank" id="quem">quem</a>
+        <a href="https://globo.com" target="_blank" id="receitas">receitas</a>
+    </div>
+    <div id="menu-mobile">
+        <a href="https://globo.com" target="_blank" id="g1">g1</a>
+        <a href="https://globo.com" target="_blank" id="ge">ge</a>
+        <a href="https://globo.com" target="_blank" id="gshow">gshow</a>
+        <a href="https://globo.com" target="_blank" id="tech">tech</a>
+        <a href="https://globo.com" target="_blank" id="video">vídeos</a>
+    </div>
+</header>
+    <body>
+        <div id="main">
+            <!-- Área Principal (esquerda) -->
+            <div class="content-primary">
+                <div class="primary-box1">
+                    <a href="https://globo.com" target="_blank" class="primary-content-1">Vacinados entrarão nos EUA sem quarentena a partir de 8 de novembro.</a>
+                    <a href="https://globo.com" target="_blank" class="primary-content-2">Ministros ‘lavam as mãos’ sobre Bolsonaro não se vacinar, relata blog</a>
+                    <a href="https://globo.com" target="_blank" class="primary-content-2">Bandeiras em frente ao Congresso lembram 600 mil brasileiros mortos</a>
+                </div>
+                
+                <div class="separator-h"></div>
+
+                <div class="primary-box2">
+                    <globo-news post="0"></globo-news>
+                    <globo-news post="1"></globo-news>
+                    <globo-news post="2"></globo-news>
+                </div>
+
+                <div class="separator-h"></div> 
+
+                <div class="primary-box2">
+                    <globo-news post="3"></globo-news>
+                    <globo-news post="4"></globo-news>
+                    <globo-news post="5"></globo-news>
+                </div>
+            </div>
+            
+            <!-- Área Secundaria (direita) -->
+            <div class="content-secondary">
+
+                <div></div>
+
+                <div class="secondary-box">
+                    <globo-news post="6"></globo-news>
+                    <globo-news post="7"></globo-news>
+                    <globo-news post="8"></globo-news>
+                </div>
+
+                <div class="separator-v"></div>
+                
+                <div class="secondary-box">
+                    <globo-news post="9"></globo-news>
+                    <globo-news post="10"></globo-news>
+                    <globo-news post="11"></globo-news>
+                </div>                
+            </div>
+        </div>
+        <script src="/js/news.js"></script>
+    </body>
+</html>
